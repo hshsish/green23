@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE156E3F2A651A0E00D72E7C /* OpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = FE156E3E2A651A0E00D72E7C /* OpenAI */; };
+		FE3C3E0C2A446C25005BBA53 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = FE3C3E0B2A446C25005BBA53 /* Alamofire */; };
+		FE3C3E0E2A446D44005BBA53 /* ImageCapApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3C3E0D2A446D44005BBA53 /* ImageCapApi.swift */; };
+		FE3C3E122A4499E7005BBA53 /* CapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3C3E112A4499E7005BBA53 /* CapView.swift */; };
+		FE3C3E142A449C4D005BBA53 /* ImagePickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3C3E132A449C4D005BBA53 /* ImagePickerManager.swift */; };
+		FE50B2DA2A89FBB400A6FDE1 /* SubscriptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE50B2D92A89FBB400A6FDE1 /* SubscriptionsView.swift */; };
+		FE50B2DD2A8A135900A6FDE1 /* ACarousel in Frameworks */ = {isa = PBXBuildFile; productRef = FE50B2DC2A8A135900A6FDE1 /* ACarousel */; };
+		FE6E377F2A39D2E20059206A /* HelloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6E377E2A39D2E20059206A /* HelloView.swift */; };
+		FE6E37812A39DF230059206A /* HelloViewTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6E37802A39DF230059206A /* HelloViewTwo.swift */; };
+		FE8238F22A5E7562002E9DCB /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8238F12A5E7562002E9DCB /* AlertView.swift */; };
+		FE86A8B22A335447006547FF /* Montserrat.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE86A8B12A335447006547FF /* Montserrat.ttf */; };
+		FED6C1842A33417B00A8E108 /* PHOTOCAPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6C1832A33417B00A8E108 /* PHOTOCAPApp.swift */; };
+		FED6C1862A33417B00A8E108 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6C1852A33417B00A8E108 /* ContentView.swift */; };
+		FED6C1882A33417E00A8E108 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FED6C1872A33417E00A8E108 /* Assets.xcassets */; };
+		FED6C18B2A33417E00A8E108 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FED6C18A2A33417E00A8E108 /* Preview Assets.xcassets */; };
+		FED6C1942A3341D600A8E108 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6C1932A3341D600A8E108 /* Data.swift */; };
+		FED6C1962A3341E400A8E108 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6C1952A3341E400A8E108 /* CardView.swift */; };
+		FED6C1982A3341F400A8E108 /* UserCapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6C1972A3341F400A8E108 /* UserCapView.swift */; };
+		FED6C19C2A3342E100A8E108 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6C19B2A3342E100A8E108 /* HistoryView.swift */; };
+		FED6C19E2A3342EE00A8E108 /* FavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6C19D2A3342EE00A8E108 /* FavView.swift */; };
+		FED975002A668F8700DE650C /* Replicate in Frameworks */ = {isa = PBXBuildFile; productRef = FED974FF2A668F8700DE650C /* Replicate */; };
+		FEEDA1222A7253C80093D415 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEDA1212A7253C80093D415 /* UserDefaults.swift */; };
+		FEF5F3B72A3C9A2A00702DB3 /* OptionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF5F3B62A3C9A2A00702DB3 /* OptionManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE3C3E0D2A446D44005BBA53 /* ImageCapApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCapApi.swift; sourceTree = "<group>"; };
+		FE3C3E112A4499E7005BBA53 /* CapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapView.swift; sourceTree = "<group>"; };
+		FE3C3E132A449C4D005BBA53 /* ImagePickerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerManager.swift; sourceTree = "<group>"; };
+		FE50B2D92A89FBB400A6FDE1 /* SubscriptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionsView.swift; sourceTree = "<group>"; };
+		FE6E377E2A39D2E20059206A /* HelloView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloView.swift; sourceTree = "<group>"; };
+		FE6E37802A39DF230059206A /* HelloViewTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloViewTwo.swift; sourceTree = "<group>"; };
+		FE8238F12A5E7562002E9DCB /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		FE86A8B12A335447006547FF /* Montserrat.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Montserrat.ttf; sourceTree = "<group>"; };
+		FED6C1802A33417B00A8E108 /* PHOTOCAP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PHOTOCAP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED6C1832A33417B00A8E108 /* PHOTOCAPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHOTOCAPApp.swift; sourceTree = "<group>"; };
+		FED6C1852A33417B00A8E108 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FED6C1872A33417E00A8E108 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FED6C18A2A33417E00A8E108 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FED6C1932A3341D600A8E108 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		FED6C1952A3341E400A8E108 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		FED6C1972A3341F400A8E108 /* UserCapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCapView.swift; sourceTree = "<group>"; };
+		FED6C19B2A3342E100A8E108 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		FED6C19D2A3342EE00A8E108 /* FavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavView.swift; sourceTree = "<group>"; };
+		FED6C1C02A33448F00A8E108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FEEDA1212A7253C80093D415 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		FEF5F3B62A3C9A2A00702DB3 /* OptionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FED6C17D2A33417B00A8E108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE50B2DD2A8A135900A6FDE1 /* ACarousel in Frameworks */,
+				FE156E3F2A651A0E00D72E7C /* OpenAI in Frameworks */,
+				FE3C3E0C2A446C25005BBA53 /* Alamofire in Frameworks */,
+				FED975002A668F8700DE650C /* Replicate in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE3C3E0F2A446D4D005BBA53 /* API's */ = {
+			isa = PBXGroup;
+			children = (
+				FE3C3E0D2A446D44005BBA53 /* ImageCapApi.swift */,
+			);
+			path = "API's";
+			sourceTree = "<group>";
+		};
+		FE3C3E102A446F07005BBA53 /* HIView */ = {
+			isa = PBXGroup;
+			children = (
+				FE6E377E2A39D2E20059206A /* HelloView.swift */,
+				FE6E37802A39DF230059206A /* HelloViewTwo.swift */,
+			);
+			path = HIView;
+			sourceTree = "<group>";
+		};
+		FE3C3E152A45D127005BBA53 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE8238F12A5E7562002E9DCB /* AlertView.swift */,
+				FED6C1852A33417B00A8E108 /* ContentView.swift */,
+				FE3C3E112A4499E7005BBA53 /* CapView.swift */,
+				FED6C1952A3341E400A8E108 /* CardView.swift */,
+				FED6C19B2A3342E100A8E108 /* HistoryView.swift */,
+				FED6C19D2A3342EE00A8E108 /* FavView.swift */,
+				FE50B2D92A89FBB400A6FDE1 /* SubscriptionsView.swift */,
+				FED6C1972A3341F400A8E108 /* UserCapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FE3C3E162A45D156005BBA53 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				FE3C3E132A449C4D005BBA53 /* ImagePickerManager.swift */,
+				FEF5F3B62A3C9A2A00702DB3 /* OptionManager.swift */,
+				FEEDA1212A7253C80093D415 /* UserDefaults.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		FED6C1772A33417B00A8E108 = {
+			isa = PBXGroup;
+			children = (
+				FED6C1822A33417B00A8E108 /* PHOTOCAP */,
+				FED6C1812A33417B00A8E108 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FED6C1812A33417B00A8E108 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FED6C1802A33417B00A8E108 /* PHOTOCAP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FED6C1822A33417B00A8E108 /* PHOTOCAP */ = {
+			isa = PBXGroup;
+			children = (
+				FED6C1C02A33448F00A8E108 /* Info.plist */,
+				FED6C1872A33417E00A8E108 /* Assets.xcassets */,
+				FED6C1832A33417B00A8E108 /* PHOTOCAPApp.swift */,
+				FED6C1932A3341D600A8E108 /* Data.swift */,
+				FE3C3E162A45D156005BBA53 /* Managers */,
+				FE3C3E152A45D127005BBA53 /* Views */,
+				FE3C3E0F2A446D4D005BBA53 /* API's */,
+				FE3C3E102A446F07005BBA53 /* HIView */,
+				FED6C1C42A334D4000A8E108 /* Font */,
+				FED6C1892A33417E00A8E108 /* Preview Content */,
+			);
+			path = PHOTOCAP;
+			sourceTree = "<group>";
+		};
+		FED6C1892A33417E00A8E108 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FED6C18A2A33417E00A8E108 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FED6C1C42A334D4000A8E108 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				FE86A8B12A335447006547FF /* Montserrat.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FED6C17F2A33417B00A8E108 /* PHOTOCAP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FED6C18E2A33417E00A8E108 /* Build configuration list for PBXNativeTarget "PHOTOCAP" */;
+			buildPhases = (
+				FED6C17C2A33417B00A8E108 /* Sources */,
+				FED6C17D2A33417B00A8E108 /* Frameworks */,
+				FED6C17E2A33417B00A8E108 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PHOTOCAP;
+			packageProductDependencies = (
+				FE3C3E0B2A446C25005BBA53 /* Alamofire */,
+				FE156E3E2A651A0E00D72E7C /* OpenAI */,
+				FED974FF2A668F8700DE650C /* Replicate */,
+				FE50B2DC2A8A135900A6FDE1 /* ACarousel */,
+			);
+			productName = PHOTOCAP;
+			productReference = FED6C1802A33417B00A8E108 /* PHOTOCAP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FED6C1782A33417B00A8E108 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					FED6C17F2A33417B00A8E108 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = FED6C17B2A33417B00A8E108 /* Build configuration list for PBXProject "PHOTOCAP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FED6C1772A33417B00A8E108;
+			packageReferences = (
+				FE3C3E0A2A446C25005BBA53 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				FE156E3D2A651A0E00D72E7C /* XCRemoteSwiftPackageReference "OpenAI" */,
+				FED974FE2A668F8700DE650C /* XCRemoteSwiftPackageReference "replicate-swift" */,
+				FE50B2DB2A8A135900A6FDE1 /* XCRemoteSwiftPackageReference "ACarousel" */,
+			);
+			productRefGroup = FED6C1812A33417B00A8E108 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FED6C17F2A33417B00A8E108 /* PHOTOCAP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FED6C17E2A33417B00A8E108 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE86A8B22A335447006547FF /* Montserrat.ttf in Resources */,
+				FED6C18B2A33417E00A8E108 /* Preview Assets.xcassets in Resources */,
+				FED6C1882A33417E00A8E108 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FED6C17C2A33417B00A8E108 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3C3E0E2A446D44005BBA53 /* ImageCapApi.swift in Sources */,
+				FE8238F22A5E7562002E9DCB /* AlertView.swift in Sources */,
+				FED6C19E2A3342EE00A8E108 /* FavView.swift in Sources */,
+				FE6E377F2A39D2E20059206A /* HelloView.swift in Sources */,
+				FE6E37812A39DF230059206A /* HelloViewTwo.swift in Sources */,
+				FED6C1862A33417B00A8E108 /* ContentView.swift in Sources */,
+				FED6C19C2A3342E100A8E108 /* HistoryView.swift in Sources */,
+				FEF5F3B72A3C9A2A00702DB3 /* OptionManager.swift in Sources */,
+				FE3C3E122A4499E7005BBA53 /* CapView.swift in Sources */,
+				FED6C1982A3341F400A8E108 /* UserCapView.swift in Sources */,
+				FED6C1842A33417B00A8E108 /* PHOTOCAPApp.swift in Sources */,
+				FEEDA1222A7253C80093D415 /* UserDefaults.swift in Sources */,
+				FE3C3E142A449C4D005BBA53 /* ImagePickerManager.swift in Sources */,
+				FE50B2DA2A89FBB400A6FDE1 /* SubscriptionsView.swift in Sources */,
+				FED6C1962A3341E400A8E108 /* CardView.swift in Sources */,
+				FED6C1942A3341D600A8E108 /* Data.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FED6C18C2A33417E00A8E108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FED6C18D2A33417E00A8E108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FED6C18F2A33417E00A8E108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PHOTOCAP/Preview Content\"";
+				DEVELOPMENT_TEAM = VQ8J78LB7B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PHOTOCAP/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "To select and upload photos from your device's gallery.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fobos.PHOTOCAP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FED6C1902A33417E00A8E108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PHOTOCAP/Preview Content\"";
+				DEVELOPMENT_TEAM = VQ8J78LB7B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PHOTOCAP/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "To select and upload photos from your device's gallery.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fobos.PHOTOCAP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FED6C17B2A33417B00A8E108 /* Build configuration list for PBXProject "PHOTOCAP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED6C18C2A33417E00A8E108 /* Debug */,
+				FED6C18D2A33417E00A8E108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FED6C18E2A33417E00A8E108 /* Build configuration list for PBXNativeTarget "PHOTOCAP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED6C18F2A33417E00A8E108 /* Debug */,
+				FED6C1902A33417E00A8E108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FE156E3D2A651A0E00D72E7C /* XCRemoteSwiftPackageReference "OpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MacPaw/OpenAI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.3;
+			};
+		};
+		FE3C3E0A2A446C25005BBA53 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		FE50B2DB2A8A135900A6FDE1 /* XCRemoteSwiftPackageReference "ACarousel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JWAutumn/ACarousel.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+		FED974FE2A668F8700DE650C /* XCRemoteSwiftPackageReference "replicate-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/replicate/replicate-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FE156E3E2A651A0E00D72E7C /* OpenAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE156E3D2A651A0E00D72E7C /* XCRemoteSwiftPackageReference "OpenAI" */;
+			productName = OpenAI;
+		};
+		FE3C3E0B2A446C25005BBA53 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE3C3E0A2A446C25005BBA53 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		FE50B2DC2A8A135900A6FDE1 /* ACarousel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE50B2DB2A8A135900A6FDE1 /* XCRemoteSwiftPackageReference "ACarousel" */;
+			productName = ACarousel;
+		};
+		FED974FF2A668F8700DE650C /* Replicate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FED974FE2A668F8700DE650C /* XCRemoteSwiftPackageReference "replicate-swift" */;
+			productName = Replicate;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FED6C1782A33417B00A8E108 /* Project object */;
+}
